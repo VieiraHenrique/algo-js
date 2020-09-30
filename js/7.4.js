@@ -3,9 +3,7 @@ const pizzaFlavors = []
 
 function startMenu() {
     while (true) {
-
         menuChoice = parseInt(prompt('Hello! Welcome to the Pizza Flavors Manager. \n 1 - List all the pizza flavors \n 2 - Add a new pizza flavor \n 3 - Remove a pizza flavor \n 4 - Exit the program \n \n Enter your action\'s number'));
-
         if (menuChoice < 1 || menuChoice > 4) {
             alert('You must chose one of the proposed numbers')
         } else {
@@ -20,7 +18,6 @@ function startMenu() {
             }
         }
     }
-
 }
 
 function onePizzaList() {
@@ -30,7 +27,6 @@ function onePizzaList() {
     } else {
         alert(pizzaFlavors);
     }
-
 }
 
 function twoPizzaAdd() {
